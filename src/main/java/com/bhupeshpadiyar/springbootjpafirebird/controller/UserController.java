@@ -57,6 +57,7 @@ public class UserController {
         model.addAttribute("user", user);
         return "user-form";
     }
+
     @PostMapping("/edit")
     public String saveUser(@ModelAttribute User user, @RequestParam("id") Long id) {
         userService.updateUser(id, user);
