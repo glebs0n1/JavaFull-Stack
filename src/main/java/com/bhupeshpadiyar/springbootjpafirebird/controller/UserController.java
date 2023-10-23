@@ -28,11 +28,13 @@ public class UserController {
 
     @PostMapping
     public String createUser(@ModelAttribute User user) {
-        // Установите значение ID вручную, например, используя генерацию уникальных ID
         user.setId(generateUniqueId());
-
         userService.createUser(user);
         return "redirect:/users/list";
+    }
+
+    private Long generateUniqueId() {
+        return ThreadLocalRandom.current().nextLong(1, Long.MAX_VALUE);
     }
 
     @GetMapping("/list")
@@ -61,9 +63,5 @@ public class UserController {
     public String deleteUser(@PathVariable Long id) {
         userService.deleteUser(id);
         return "redirect:/users/list";
-    }
-
-    private Long generateUniqueId() {
-        return ThreadLocalRandom.current().nextLong(1, Long.MAX_VALUE);
     }
 }
