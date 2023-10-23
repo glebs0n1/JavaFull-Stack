@@ -1,9 +1,6 @@
 package com.bhupeshpadiyar.springbootjpafirebird.Service;
 
 import com.bhupeshpadiyar.springbootjpafirebird.entity.User;
-import com.bhupeshpadiyar.springbootjpafirebird.repository.UserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
