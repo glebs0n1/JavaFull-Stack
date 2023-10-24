@@ -29,7 +29,13 @@
             margin-bottom: 5px;
             color: #007BFF;
         }
-        input[type="text"],
+          input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
         input[type="number"] {
             width: 100%;
             padding: 10px;
@@ -37,7 +43,7 @@
             border: 1px solid #ddd;
             border-radius: 5px;
         }
-        button[type="submit"] {
+        input[type="submit"] {
             background-color: #007BFF;
             color: #fff;
             border: none;
@@ -58,14 +64,14 @@
     </div>
 
     <form action="/users/edit" method="post">
-        <input type="hidden" th:field="*{id}" />
+        <input type="hidden" name="id" th:value="${user.id}" />
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" th:value="*{name}" required>
-
+        <input type="text" id="name" name="name" th:value="${user.name}" />
+        <br>
         <label for="age">Age:</label>
-        <input type="number" id="age" name="age" th:value="*{age}" required>
-
-        <button type="submit">Save</button>
+        <input type="text" id="age" name="age" th:value="${user.age}" />
+        <br>
+        <input type="submit" value="Edit Info" />
     </form>
 </div>
 </body>
