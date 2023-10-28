@@ -1,6 +1,6 @@
-package com.bhupeshpadiyar.springbootjpafirebird.Service;
+package com.example.crud.Service;
 
-import com.bhupeshpadiyar.springbootjpafirebird.entity.User;
+import com.example.crud.entity.User;
 
 import java.util.List;
 

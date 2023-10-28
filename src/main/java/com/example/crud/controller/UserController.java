@@ -1,7 +1,7 @@
-package com.bhupeshpadiyar.springbootjpafirebird.controller;
+package com.example.crud.controller;
 
-import com.bhupeshpadiyar.springbootjpafirebird.Service.UserService;
-import com.bhupeshpadiyar.springbootjpafirebird.entity.User;
+import com.example.crud.Service.UserService;
+import com.example.crud.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

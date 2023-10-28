@@ -8,10 +8,10 @@
 		<version>2.3.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.bhupeshpadiyar</groupId>
-	<artifactId>springboot-jpa-firebird-db</artifactId>
+	<groupId>com.example</groupId>
+	<artifactId>crud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-jpa-firebird-db</name>
+	<name>crud</name>
 	<description>Spring boot JPA project with Firebird database</description>
 
 	<properties>

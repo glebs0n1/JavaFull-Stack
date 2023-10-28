@@ -1,4 +1,4 @@
-package com.bhupeshpadiyar.springbootjpafirebird.entity;
+package com.example.crud.entity;
 
 import javax.persistence.*;
 

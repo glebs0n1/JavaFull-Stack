@@ -1,4 +1,4 @@
-package com.bhupeshpadiyar.springbootjpafirebird;
+package com.example.crud;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
