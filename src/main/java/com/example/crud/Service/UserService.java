@@ -1,6 +1,6 @@
 package com.example.crud.Service;
 
-import com.example.crud.entity.User;
+import com.example.crud.model.User;
 
 import java.util.List;
 
