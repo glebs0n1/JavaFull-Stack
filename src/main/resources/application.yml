@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:firebirdsql://localhost:3050/C:/Users/gleb/Desktop/PERSONS.FDB?encoding=UTF8
+    url: jdbc:firebirdsql://localhost:3050/C:/Users/gleb/Desktop/PERSON.FDB?encoding=UTF8
     username: sysdba
     password: Root
   driver-class-name: org.firebirdsql.jdbc.FBDriver
