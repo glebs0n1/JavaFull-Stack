@@ -16,7 +16,7 @@ public class DataSourceConfig {
     public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("org.firebirdsql.jdbc.FBDriver");
-        dataSource.setUrl("jdbc:firebirdsql://localhost:3050/C:/Users/gleb/Desktop/PERSONS.FDB");
+        dataSource.setUrl("jdbc:firebirdsql://localhost:3050/C:/Users/gleb/Desktop/PERSON.FDB");
         dataSource.setUsername("sysdba");
         dataSource.setPassword("Root");
         return dataSource;
